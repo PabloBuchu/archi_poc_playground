@@ -5,7 +5,7 @@ This is just a playground poc for testing architectural solution using locust, t
 ## Getting Started
 
 ```
-$ docker-compose up
+$ docker-compose up --scale eanworker=3 -e REDIS_CODES_THRESHOLD=100
 ```
 
 ports:
