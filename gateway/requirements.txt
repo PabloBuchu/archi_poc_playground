@@ -1,4 +1,4 @@
-tornado==6.0.2
+tornado==6.3.2
 aioredis==1.2.0
 motor==2.0.0
 prometheus_client==0.7.1
